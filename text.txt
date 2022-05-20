@@ -1,0 +1,11 @@
+PostgreSQL Dump ile yedekleme işlwmleri hem kolay hemde verimli bir şekilde yapılabilir. 
+İlk başta hangi veritabanını ve yedeği hangi yola oluşturacağımızı seçeriz, pg_dump kullanılarak veritabanın yedeği alınabilir.
+pg dump normal bir PostgreSQL komutudur, veri tabanına erişimi olan herhangi birisi tarafından yedekleme işlemleri yapılabilir. 
+yedekleme yapılacak tabloları okumak için izine ihtiyacımız vardır. pg_dump kullanmanın en büyük avantajı PostgreSQL'in yeni sürümleri içinde yüklenebilir olmasıdır.
+
+KURULUM: 
+
+    İlk başta sunucuda PostgreSQL kurulu olması gerekmektedir. 
+    Yüklenecek uygulamanın gerekli olan kurulumları yapılır ve gerekli paketler kurulur.
+    Config ayarları yapılır veritabını için 
+    Yazılan uygulamanın config ayarlarından yüklendiği sunucunun adresleri ayrlanarak canlıya alınır.
