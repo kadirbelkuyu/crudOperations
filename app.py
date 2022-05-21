@@ -33,7 +33,7 @@ class Recipe(db.Model):
         db.session.delete(self)
         db.session.commit()
 
-class Resepsiyon(Schema):
+class RecipeSchema(Schema):
     id=fields.Integer()
     name=fields.String()
     description=fields.String()
