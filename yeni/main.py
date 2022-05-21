@@ -1,5 +1,5 @@
-from db_config import con
-from db_query import *
+from config import con
+from query import *
 import sys
 import psycopg2 as pdb
 
